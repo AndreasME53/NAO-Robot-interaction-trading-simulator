@@ -1,4 +1,4 @@
-###### Description
+#### Description
 This is a web-based trading simulation software I designed to test the theory of how robots may effect peoples trust in the financial markets.
 I give a detailed analysis in my dissertation, thus I recommend all viewers to read my paper before continuing.
 
