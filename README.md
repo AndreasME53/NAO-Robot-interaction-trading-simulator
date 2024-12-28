@@ -1,6 +1,6 @@
-#### Description
+## Description
 This is a web-based trading simulation software I designed to test the theory of how robots may effect peoples trust in the financial markets.
-I give a detailed analysis in my dissertation, thus I recommend all viewers to read my paper before continuing.
+I give a detailed analysis in my dissertation, thus I recommend all viewers to read my paper before [continuing](https://github.com/AndreasME53/NAO-Robot-interaction-trading-simulator/blob/main/Trust%20under%20Financial%20Risk_%20a%20Simulator%20involving%20a%20Robot%20Advisor.md).
 
 
 ##### What's Being Used?
