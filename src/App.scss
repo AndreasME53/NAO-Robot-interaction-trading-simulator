@@ -1,0 +1,219 @@
+body {
+  font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.d-end {
+  align-items: end;
+  align-content: center;
+  justify-content: end;
+  display: grid;
+}
+.btn-purple {
+  background-color: #6558f4 !important;
+  font-weight: 500 !important;
+  width: 201px !important;
+}
+
+#nprogress .bar {
+  background: #6558f4 !important;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 4px !important;
+}
+
+.rdt_TableCol_Sortable div {
+  font-weight: 700;
+}
+
+.rdt_TableCell div,
+.rdt_TableCell span {
+  font-weight: 400;
+}
+
+.navbar-light {
+  background-color: #383f54 !important;
+}
+
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 1700px;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 800 !important;
+}
+
+.dropdown {
+  position: initial !important;
+  display: inline !important;
+}
+
+.dropdown-button {
+  #dropdown-basic-button {
+    padding: 0px;
+    position: absolute;
+    left: -5px;
+    bottom: 18px;
+    color: black !important;
+    background: none !important;
+    border: none !important;
+
+    &:after {
+      display: none !important;
+    }
+
+    &:hover {
+      color: black !important;
+      background: none !important;
+      border: none !important;
+    }
+  }
+
+  #dropdown-basic-button::after {
+    display: none !important;
+  }
+  .btn-primary:focus {
+    box-shadow: none !important;
+  }
+
+  .ch-dp {
+    width: 200px !important;
+  }
+  .con-dp {
+    width: 140px;
+  }
+
+  .filter-btn {
+    margin-top: 3px;
+    margin-left: 7px;
+    height: 33px;
+  }
+}
+
+.isSet {
+  #dropdown-basic-button {
+    color: #6558f4 !important;
+
+    &:hover {
+      color: #6558f4 !important;
+    }
+  }
+}
+
+.error-div {
+  overflow: scroll;
+  max-height: 400px;
+}
+
+.data-table {
+  padding: 5px 15px;
+}
+
+.data-table > div {
+  @media only screen and (max-width: 1600px) {
+    overflow: scroll !important;
+  }
+}
+
+.data-table > .rdt_TableHeader {
+  display: none;
+}
+
+.data-table .rdt_TableHeadRow {
+  background-color: #eff2f7;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.data-table .rdt_TableRow {
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.data-table .rdt_Pagination {
+  border-top: 1px solid #f0f0f0 !important;
+}
+
+.card {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  min-width: 500px !important;
+  word-wrap: break-word !important;
+  background-color: #fff !important;
+  background-clip: border-box !important;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem !important;
+}
+
+.card-header {
+  background-color: white !important;
+  border-bottom: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.table-menu-poper {
+  max-width: 190px !important;
+  font-size: 13px !important;
+  color: #4d5969 !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+.role-modal-body {
+  max-width: 100vh !important;
+  width: 100% !important;
+}
+
+.App-primary-color {
+  background-color: #383f54 !important;
+}

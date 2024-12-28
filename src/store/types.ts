@@ -1,0 +1,27 @@
+import { API_TYPE } from 'utils/helper';
+
+export const LOGIN = API_TYPE('LOGIN');
+export const SIGNUP = API_TYPE('SIGNUP');
+export const LOGOUT_USER = 'LOGOUT_USER';
+
+export const ADD_USER_STOCK_INFO = API_TYPE('ADD_USER_STOCK_INFO');
+export const UPDATE_USER_STOCK_INFO = API_TYPE('UPDATE_USER_STOCK_INFO');
+export const SET_SHOW_FORM = 'SET_SHOW_FORM';
+
+export const HEADER_TIMER = 'HEADER_TIMER';
+export const START_TIMER = 'START_TIMER';
+export const SET_TIME_OUT = 'SET_TIME_OUT';
+
+export const SET_GRAPH_DATA = 'SET_GRAPH_DATA';
+
+export const SET_STOCK_NAME = 'STOCK_NAME';
+
+export const SET_TRADING = 'SET_TRADING';
+export const UPDATE_TRADING = 'UPDATE_TRADING';
+
+export const ADD_ACTIVITY_LOG = API_TYPE('ADD_ACTIVITY_LOG');
+
+export const ACCOUNT_HISTORY = API_TYPE('ACCOUNT_HISTORY');
+
+export const ADD_REQUESTED_HELP = API_TYPE('ADD_REQUESTED_HELP');
+export const GET_REQUESTED_HELPS = API_TYPE('GET_REQUESTED_HELPS');
